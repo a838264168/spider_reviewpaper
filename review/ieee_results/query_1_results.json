@@ -1,0 +1,20 @@
+{
+  "query_id": "1",
+  "query_text": "((\"self-esteem\" OR \"self concept\") AND (\"psychological assessment\" OR \"psychometrics\") AND (\"machine learning\" OR \"deep learning\"))",
+  "crawl_time": "2025-11-19T17:09:38.247034",
+  "total_results": "未知",
+  "articles_count": 1,
+  "articles": [
+    {
+      "title": "Stress Prediction in Higher Education Students Using Psychometric Assessments and AOA-CNN-XGBoost Models",
+      "link": "https://ieeexplore.ieee.org/document/10763288/",
+      "authors": "Sarthak Sharma;\nSuman Vij;\nRVS Praveen;\nS. Srinivasan;\nDharmendra Kumar Yadav;\nRaj Kumar V S",
+      "publisher_info": "Year: 2024 | Conference Paper | Publisher: IEEE",
+      "year": "N/A",
+      "abstract": "2024 4th International Conference on Sustainable Expert Systems (ICSES)\nYear: 2024 | Conference Paper | Publisher: IEEE\nCited by: Papers (12)",
+      "doc_id": "10763288",
+      "pdf_downloaded": true,
+      "pdf_path": "ieee_pdfs\\10763288_Stress Prediction in Higher Education Students Usi.pdf"
+    }
+  ]
+}

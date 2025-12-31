@@ -1,0 +1,20 @@
+{
+  "query_id": "7",
+  "query_text": "(\"self-esteem\" AND (\"facial expression recognition\" OR \"speech emotion recognition\"))",
+  "crawl_time": "2025-11-19T17:21:52.818010",
+  "total_results": "未知",
+  "articles_count": 1,
+  "articles": [
+    {
+      "title": "Modeling the Need for Decision Support Systems for Dyslexic Children Using BMC",
+      "link": "https://ieeexplore.ieee.org/document/8567106/",
+      "authors": "Nur Izzah Rahmiah Ab Llah;\nKhadijah Hanis Ahmad Firdaus;\nJamaludin Ibrahim",
+      "publisher_info": "Year: 2018 | Conference Paper | Publisher: IEEE",
+      "year": "N/A",
+      "abstract": "2018 International Conference on Information and Communication Technology for the Muslim World (ICT4M)\nYear: 2018 | Conference Paper | Publisher: IEEE\nCited by: Papers (2)",
+      "doc_id": "8567106",
+      "pdf_downloaded": true,
+      "pdf_path": "ieee_pdfs\\8567106_Modeling the Need for Decision Support Systems for.pdf"
+    }
+  ]
+}

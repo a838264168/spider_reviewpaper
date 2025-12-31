@@ -1,0 +1,20 @@
+{
+  "query_id": "13",
+  "query_text": "(\"self-esteem\" AND \"stress detection\" AND (\"machine learning\" OR \"deep learning\"))",
+  "crawl_time": "2025-11-19T17:34:01.587844",
+  "total_results": "未知",
+  "articles_count": 1,
+  "articles": [
+    {
+      "title": "Mental Stress Detection and Classification using SVM Classifier: A Pilot Study",
+      "link": "https://ieeexplore.ieee.org/document/9780795/",
+      "authors": "R. Jegan;\nS. Mathuranjani;\nPraveen Sherly",
+      "publisher_info": "Year: 2022 | Conference Paper | Publisher: IEEE",
+      "year": "N/A",
+      "abstract": "2022 6th International Conference on Devices, Circuits and Systems (ICDCS)\nYear: 2022 | Conference Paper | Publisher: IEEE\nCited by: Papers (7)",
+      "doc_id": "9780795",
+      "pdf_downloaded": true,
+      "pdf_path": "ieee_pdfs\\9780795_Mental Stress Detection and Classification using S.pdf"
+    }
+  ]
+}

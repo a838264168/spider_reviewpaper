@@ -1,0 +1,53 @@
+{
+  "query_id": "15",
+  "query_text": "(\"self-esteem\" AND \"emotion recognition\" AND \"deep learning\")",
+  "crawl_time": "2025-11-19T17:39:10.716956",
+  "total_results": "未知",
+  "articles_count": 4,
+  "articles": [
+    {
+      "title": "Semblance Unmasker: Hidden Emotion Recognition Using Deep Learning Approach",
+      "link": "https://ieeexplore.ieee.org/document/10370099/",
+      "authors": "Archana P. Lopes;\nSahil Bane;\nMohini Gautam;\nShalaka Vengurlekar",
+      "publisher_info": "Year: 2023 | Conference Paper | Publisher: IEEE",
+      "year": "N/A",
+      "abstract": "2023 International Conference on Sustainable Communication Networks and Application (ICSCNA)\nYear: 2023 | Conference Paper | Publisher: IEEE",
+      "doc_id": "10370099",
+      "pdf_downloaded": true,
+      "pdf_path": "ieee_pdfs\\10370099_Semblance Unmasker Hidden Emotion Recognition Usi.pdf"
+    },
+    {
+      "title": "A Comprehensive Analysis of Speech Depression Recognition Systems",
+      "link": "https://ieeexplore.ieee.org/document/10500078/",
+      "authors": "Ali Hassan;\nShonda Bernadin",
+      "publisher_info": "Year: 2024 | Conference Paper | Publisher: IEEE",
+      "year": "N/A",
+      "abstract": "SoutheastCon 2024\nYear: 2024 | Conference Paper | Publisher: IEEE\nCited by: Papers (5)",
+      "doc_id": "10500078",
+      "pdf_downloaded": true,
+      "pdf_path": "ieee_pdfs\\10500078_A Comprehensive Analysis of Speech Depression Reco.pdf"
+    },
+    {
+      "title": "Hybrid Model for Analysis of Social Media Posts for Identification of Depression and Measuring Its Severity",
+      "link": "https://ieeexplore.ieee.org/document/10245441/",
+      "authors": "Jay Nanavati;\nUnnati Patel",
+      "publisher_info": "Year: 2023 | Conference Paper | Publisher: IEEE",
+      "year": "N/A",
+      "abstract": "2023 International Conference on Data Science and Network Security (ICDSNS)\nYear: 2023 | Conference Paper | Publisher: IEEE\nCited by: Papers (2)",
+      "doc_id": "10245441",
+      "pdf_downloaded": true,
+      "pdf_path": "ieee_pdfs\\10245441_Hybrid Model for Analysis of Social Media Posts fo.pdf"
+    },
+    {
+      "title": "Revealing Emotional Insights from Mental Health Discussions on Instagram and TikTok Using BERT Models",
+      "link": "https://ieeexplore.ieee.org/document/10993372/",
+      "authors": "N. Merayo;\nA. Ayuso-Lanchares;\nC. González-Sanguino",
+      "publisher_info": "Year: 2025 | Early Access Article | Publisher: IEEE",
+      "year": "N/A",
+      "abstract": "IEEE Transactions on Affective Computing\nYear: 2025 | Early Access Article | Publisher: IEEE",
+      "doc_id": "10993372",
+      "pdf_downloaded": true,
+      "pdf_path": "ieee_pdfs\\10993372_Revealing Emotional Insights from Mental Health Di.pdf"
+    }
+  ]
+}

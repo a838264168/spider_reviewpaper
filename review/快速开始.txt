@@ -1,0 +1,152 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                IEEE Xplore 爬虫 - 快速开始指南                    ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+📋 准备工作（首次使用）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1️⃣ 安装依赖包
+   
+   pip install -r requirements.txt
+   pip install pandas openpyxl webdriver-manager
+
+2️⃣ 确保已安装 Chrome 浏览器
+   
+   下载地址：https://www.google.com/chrome/
+
+
+🚀 开始爬取（三步走）
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+第一步：测试爬虫
+   
+   python test_crawler.py
+   
+   ✓ 验证环境配置
+   ✓ 测试第1个检索式
+   ✓ 确保功能正常
+
+第二步：正式爬取（约2小时）
+   
+   python ieee_crawler.py
+   
+   ⚠️  建议在网络稳定时运行
+   ⚠️  可随时按 Ctrl+C 中断，下次自动继续
+
+第三步：分析结果
+   
+   python analyze_results.py
+   
+   ✓ 查看统计信息
+   ✓ 导出为 CSV/Excel
+   ✓ 去重合并
+
+
+📁 文件说明
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+核心文件：
+  ieee_crawler.py          主爬虫程序
+  analyze_results.py       结果分析工具
+  test_crawler.py          测试脚本
+
+配置文件：
+  IEEE_Xplore_检索式汇总_修正版.csv    80个检索式
+  config.json              高级配置
+  requirements.txt         依赖包列表
+
+输出文件：
+  ieee_results/            所有结果（JSON）
+  crawl_progress.json      爬取进度
+  ieee_crawler.log         运行日志
+
+文档：
+  README_爬虫使用说明.md   详细文档
+  快速开始.txt             本文件
+
+
+⚙️ 常用命令
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# Windows 用户可直接双击
+  快速启动.bat
+
+# 查看日志
+  type ieee_crawler.log        (Windows)
+  cat ieee_crawler.log         (Mac/Linux)
+
+# 查看进度
+  type crawl_progress.json
+
+
+⚠️ 重要提示
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+安全设置：
+  ✓ 60-120秒随机延迟（2倍安全系数）
+  ✓ 模拟真实浏览器行为
+  ✓ 自动保存进度
+
+遵守规范：
+  ✓ 仅用于学术研究
+  ✗ 不得商业使用
+  ✗ 不批量下载PDF全文
+
+时间估算：
+  80个检索式 × 90秒 = 约2小时
+
+
+🔧 常见问题
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Q: ChromeDriver 版本不匹配？
+A: pip install webdriver-manager
+   然后在 ieee_crawler.py 中使用自动安装模式
+
+Q: 爬取速度太慢？
+A: 修改 config.json 中的 min_delay 和 max_delay
+   ⚠️ 不建议低于 45 秒
+
+Q: 中途中断了怎么办？
+A: 再次运行 python ieee_crawler.py 会自动继续
+
+Q: 如何只爬前10个？
+A: 修改 CSV 文件，只保留前10行
+
+Q: 需要登录吗？
+A: 如果校园网已自动登录则不需要
+   否则可能需要修改代码添加登录逻辑
+
+
+📞 获取帮助
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. 查看详细文档：README_爬虫使用说明.md
+2. 查看日志文件：ieee_crawler.log
+3. 检查进度文件：crawl_progress.json
+
+
+🎯 完整流程示例
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 1. 安装
+pip install -r requirements.txt
+
+# 2. 测试
+python test_crawler.py
+
+# 3. 爬取（后台运行，Windows）
+start /b python ieee_crawler.py > output.log 2>&1
+
+# 4. 分析
+python analyze_results.py
+
+# 5. 导出（在分析工具中选择）
+选项 1: 导出为CSV
+
+
+祝科研顺利！🎓
+
+═══════════════════════════════════════════════════════════════════
+
+

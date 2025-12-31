@@ -1,0 +1,20 @@
+{
+  "query_id": "66",
+  "query_text": "(\"self concept\" AND \"emotion regulation\" AND \"deep learning\")",
+  "crawl_time": "2025-11-19T19:34:28.257236",
+  "total_results": "未知",
+  "articles_count": 1,
+  "articles": [
+    {
+      "title": "The Design of Multimodal-Based Micro-Expression Recognition Training Platform for Adolescents",
+      "link": "https://ieeexplore.ieee.org/document/10885455/",
+      "authors": "Tian Yu;\nLiu Ye",
+      "publisher_info": "Year: 2024 | Conference Paper | Publisher: IEEE",
+      "year": "N/A",
+      "abstract": "2024 IEEE 6th Eurasia Conference on Biomedical Engineering, Healthcare and Sustainability (ECBIOS)\nYear: 2024 | Conference Paper | Publisher: IEEE",
+      "doc_id": "10885455",
+      "pdf_downloaded": true,
+      "pdf_path": "ieee_pdfs\\10885455_The Design of Multimodal-Based Micro-Expression Re.pdf"
+    }
+  ]
+}

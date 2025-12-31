@@ -1,0 +1,20 @@
+{
+  "query_id": "18",
+  "query_text": "(\"self-esteem\" AND (\"behavior modeling\" OR \"behavior prediction\") AND (\"AI\" OR \"machine learning\"))",
+  "crawl_time": "2025-11-19T17:45:53.809483",
+  "total_results": "未知",
+  "articles_count": 1,
+  "articles": [
+    {
+      "title": "A Culture Model for Non-Player Characters' Behaviors in Role-Playing Games",
+      "link": "https://ieeexplore.ieee.org/document/9291553/",
+      "authors": "Luís Fernando Bicalho;\nBruno Feijó;\nAugusto Baffa",
+      "publisher_info": "Year: 2020 | Conference Paper | Publisher: IEEE",
+      "year": "N/A",
+      "abstract": "2020 19th Brazilian Symposium on Computer Games and Digital Entertainment (SBGames)\nYear: 2020 | Conference Paper | Publisher: IEEE\nCited by: Papers (4)",
+      "doc_id": "9291553",
+      "pdf_downloaded": true,
+      "pdf_path": "ieee_pdfs\\9291553_A Culture Model for Non-Player Characters Behavio.pdf"
+    }
+  ]
+}

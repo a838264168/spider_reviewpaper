@@ -1,0 +1,20 @@
+{
+  "query_id": "21",
+  "query_text": "(\"self concept\" AND \"feature extraction\" AND \"deep learning\")",
+  "crawl_time": "2025-11-19T17:51:57.367624",
+  "total_results": "未知",
+  "articles_count": 1,
+  "articles": [
+    {
+      "title": "A Primer on Modern AI",
+      "link": "https://ieeexplore.ieee.org/document/10952503/",
+      "authors": "Beena Ammanath",
+      "publisher_info": "Year: 2022 | Book Chapter | Publisher: Wiley",
+      "year": "N/A",
+      "abstract": "Trustworthy AI: A Business Guide for Navigating Trust and Ethics in AI\nYear: 2022 | Book Chapter | Publisher: Wiley",
+      "doc_id": "10952503",
+      "pdf_downloaded": false,
+      "pdf_path": null
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "crawler_settings": {
+    "min_delay": 60,
+    "max_delay": 120,
+    "small_delay_min": 3,
+    "small_delay_max": 8,
+    "max_retries": 3,
+    "timeout": 20
+  },
+  
+  "browser_settings": {
+    "headless": false,
+    "disable_images": true,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  
+  "proxy_settings": {
+    "enabled": false,
+    "proxy_list": [
+      "http://proxy1:port",
+      "http://proxy2:port"
+    ],
+    "rotate": false
+  },
+  
+  "output_settings": {
+    "results_dir": "ieee_results",
+    "progress_file": "crawl_progress.json",
+    "log_file": "ieee_crawler.log",
+    "save_html": false
+  },
+  
+  "extraction_settings": {
+    "max_articles_per_query": 100,
+    "extract_citations": false,
+    "extract_keywords": false,
+    "download_pdf": false
+  },
+  
+  "注释": {
+    "min_delay": "查询间最小延迟（秒）",
+    "max_delay": "查询间最大延迟（秒）",
+    "headless": "是否无头模式运行（true=不显示浏览器）",
+    "disable_images": "是否禁用图片加载（加快速度）",
+    "proxy_enabled": "是否使用代理（需要自行配置代理列表）",
+    "max_articles_per_query": "每个检索式最多提取多少篇文章",
+    "download_pdf": "是否下载PDF全文（需要订阅权限）"
+  }
+}
+
+
